@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 1270px;
+    width: 100%;
+    align-items: center;
+    margin: auto 0;
+    padding: 30px 125px;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner-right-list{
+    display: flex;
+    gap: 30px;
+}
+
+.header-inner-right-list-item{
+    list-style-type: none;
+}
+
+.header-inner-right-list-item-link{
+    color: #333333;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-inner-right-list-item-link:hover{
+    font-size: 20px;
+    transition-duration: 0.8s;
+}
+
+.freedom-left{
+    margin-top: 70px;
+    width: 490px;
+    height: 291px;
+}
+
+.freedom-left-title{
+    font-weight: 700;
+    margin-bottom: 30px;
+    size: 50px;
+}
+
+.freedom-left-text{
+    font-weight: 400;
+    margin-bottom: 45px;
+    size: 16px;
+    color: #777777;
+}
+
+.freedom-left-link{
+    width: 290px;
+    height: 51px;
+    background-color: #EA625C;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.freedom-left-link:hover{
+    border-radius: 15px;
+    padding: 22px;
+    transition-duration: 0.8s;
+    font-size: 20px;
+}
+
+.freedom-left-link:active{
+    background-color: white;
+    color: #EA625C;
+    transition-duration: 0.3s;
+    border: 2px solid #EA625C;
+}
+
+.freedom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-cards-title{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.info-cards-text{
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.info-cards-link{
+    margin-top: 20px;
+    color: #EA625C;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.info-cards-link:hover{
+    font-size: 18px;
+    transition-duration: 0.8s;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-top: 90px;
+}
+
+.watch-left{
+    width: 490px;
+    height: 387px;
+}
+
+.watch-left-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.watch-left-text{
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.watch-left-link{
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.watch-left-link:hover{
+    border-radius: 15px;
+    padding: 22px;
+    transition-duration: 0.8s;
+    font-size: 20px;
+}
+
+.watch-left-link:active{
+    background-color: white;
+    color: #EA625C;
+    transition-duration: 0.3s;
+    border: 2px solid #EA625C;
+}
+
+.control{
+    margin-top: 180px;
+    width: 1521px;
+    height: 1150px;
+    background-image: url(/images/runners\ 1.jpg);
+    background-size: cover;
+}
+
+.control-box{
+    width: 490px;
+    height: 351px;
+}
+
+.control-box-title{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.control-box-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.control-box-link{
+    width: 260px;
+    height: 51px;
+    padding: 15px;
+    background-color: #EA625C;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.control-box-link:hover{
+    border-radius: 15px;
+    padding: 20px;
+    transition-duration: 0.8s;
+    font-size: 20px;
+}
+
+.control-box-link:active{
+    background-color: white;
+    color: #EA625C;
+    transition-duration: 0.3s;
+    border: 2px solid #EA625C;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-box{
+    margin-top: 300px;
+    margin-left: 800px;
+}
+
+.control{
+    background-image: url(../images/runners\ 1.jpg);
+}
